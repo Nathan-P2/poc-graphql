@@ -1,0 +1,19 @@
+{
+  "name": "poc-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-P2/poc-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathan-P2/poc-graphql/issues"
+  },
+  "homepage": "https://github.com/Nathan-P2/poc-graphql#readme"
+}
