@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsnd --respawn --transpile-only index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,20 @@
   "bugs": {
     "url": "https://github.com/Nathan-P2/poc-graphql/issues"
   },
-  "homepage": "https://github.com/Nathan-P2/poc-graphql#readme"
+  "homepage": "https://github.com/Nathan-P2/poc-graphql#readme",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "apollo-server": "^3.12.0",
+    "class-validator": "^0.14.0",
+    "graphql": "^15.8.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "prisma": "^4.11.0",
+    "ts-node-dev": "^2.0.0",
+    "typegraphql-prisma": "^0.24.2",
+    "typescript": "^4.9.5"
+  }
 }
